@@ -1,6 +1,9 @@
 <Swift 알고리즘에 필요한 기초 문법들 총정리>
 ---
-The king will be made. 
+
+![swift blackman](https://us.123rf.com/450wm/ismagilov/ismagilov1701/ismagilov170100268/68263757-%EA%B7%B8%EC%9D%98-%EB%91%90%EA%B1%B4%EC%9D%84-%ED%8D%BC-%ED%8C%85-%ED%95%98-%EA%B3%A0-%EA%B7%B8%EC%9D%98-%EB%85%B8%ED%8A%B8%EB%B6%81-%ED%99%94%EB%A9%B4%EC%97%90%EC%84%9C-%EC%B0%BE%EA%B3%A0-%EA%B9%8C%EB%A7%88%EA%B7%80%EC%97%90-%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4-%EA%B3%84-%EB%AF%B8%EA%B5%AD%EC%9D%B8-%ED%95%B4%EC%BB%A4%EC%9D%98-%EB%8B%AB%EC%8A%B5%EB%8B%88%EB%8B%A4-%EC%BD%94%EB%94%A9%EC%9D%98-%EA%B0%9C%EB%85%90%EC%9E%85%EB%8B%88%EB%8B%A4-%EB%AA%A8%EC%9D%98.jpg?ver=6)
+  
+ The king will be made. 
   
 **#1. 키보드 입력 받기**
 --
