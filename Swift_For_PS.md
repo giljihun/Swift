@@ -41,6 +41,16 @@ let nums = readLine()!.components(seperateBy:" ")
 
 ---
 
+**#1-2. 띄어쓰기로 정수 여러개 입력 받기**
+```
+let input = readline()!.split(separator: " ").map {
+  Int(String($0))! }
+//입력 : 1 2 3
+// Array<Int>
+// [1, 2, 3]
+// .map : 맵 클로저 안의 코드를 배열 하나하나의 아이템에 적용시킨다.
+```
+
 **#2. 배열(Array) 다루기**
 --
 
