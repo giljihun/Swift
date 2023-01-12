@@ -21,12 +21,12 @@ readLine() 리턴값은 Optional String.
 입력 : 1, 2, 3, 4
 
 ```
-let nums = readLine()!.split(seperator:" ")
+let nums = readLine()!.split(separator:" ")
 // ["1", "2", "3", "4"]
 // split()를 이용한 쪼개기
 ```
 ```
-let nums = readLine()!.components(seperateBy:" ") 
+let nums = readLine()!.components(separateBy:" ") 
 // ["1", "2", "3", "4"]
 // component()를 이용한 쪼개기
 ```
