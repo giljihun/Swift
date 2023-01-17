@@ -51,6 +51,24 @@ let input = readline()!.split(separator: " ").map {
 // .map : 맵 클로저 안의 코드를 배열 하나하나의 아이템에 적용시킨다.
 ```
 
+**#1-3. 입력 받는 방법 총정리
+```
+알고리즘 풀면서 입력을 안 받는 경우는 없음.. 편의를 위해 readLine에서 옵셔널 강제 해제를 해준다.
+
+// 문자열을 한 줄 받으려면!
+let input = readLine()!
+
+// components로 뒤에 인자로 들어가는 문자 (여기서는 공백)을 기준으로 문자열을 잘라 배열 형식으로 저장한다.
+let input = readLine()!.components(separatedBy: " ")
+
+// Int형 받기 -> 단순 형변환!
+let input = Int(readLine!())
+
+// Int값이 공백을 기준으로 하나씩 들어온다 -> map을 이용한 형 변환, 저장은 배열 형태!
+let input = readLine()!.components(separtedBy: " ").map({ Int($0) })
+```
+
+
 **#2. 배열(Array) 다루기**
 --
 
